@@ -4,10 +4,10 @@ import { Image, Text, View } from 'react-native'
 import IconButton from "./IconButton"
 const ProfileDetails = () => {
   return (     
-      <View className="flex justify-center items-center">
+      <View className="flex justify-start items-center mt-4 h-1/2 w-screen">
       <Image 
         source={require('../assets/images/fotoPerfil.jpg')} 
-        className="max-h-24 max-w-24 rounded-full mb-4"
+        className="max-h-24 max-w-24 rounded-full mb-6"
       />
       <Text className="text-2xl font-bold mb-2">Mateo Contreras</Text>
       <Text className="text-xl font-bold text-gray-400">Estudiante 3E2</Text> 
