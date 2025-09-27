@@ -14,6 +14,12 @@ const MoreDetails = () => {
         <IconButton icon="logo-html5" onPress={() => console.log("HTML5")} variant="profile"></IconButton>
         <IconButton icon="adobe" onPress={() => console.log("Adobe")} variant="profile" iconFamily="Fontisto"></IconButton>
       </View>
+      <View className="mt-4">
+        <CustomText variant="subtitle2" value="Institución"/>
+        <View className="flex-row mt-4 gap-4 justify-center items-center">
+          <CustomText variant="colegio" value="Unidad Educativa Técnico Salesiano"/>
+        </View>
+      </View>
     </View>
   )
 }

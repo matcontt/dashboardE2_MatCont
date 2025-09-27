@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 
 interface CustomTextProperties{
     value:string;
-    variant?: "normal" | "title" | "subtitle" | "subtitle2";
+    variant?: "normal" | "title" | "subtitle" | "subtitle2" | "colegio";
 }
 
 const CustomText = ({value, variant="normal"}:CustomTextProperties) => {
@@ -21,7 +21,9 @@ function selectVariant(variante:string){
     case "subtitle":
       return "text-2xl font-bold text-gray-500"
     case"subtitle2":
-      return "text-xl font-bold text-gray-300"
+      return "text-xl font-bold text-gray-200"
+    case"colegio":
+ return "text-xl font-bold text-gray-400 underline"
     default:
       return "text-base font-normal text-gray-700"    
   }
