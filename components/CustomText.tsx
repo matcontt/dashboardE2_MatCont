@@ -19,7 +19,7 @@ function selectVariant(variante:string){
     case "title":
       return "text-3xl font-bold text-black"
     case "subtitle":
-      return "text-2xl font-bold text-gray-500"
+      return "text-2xl font-bold text-stone-200"
     case"subtitle2":
       return "text-xl font-bold text-gray-200"
     case"colegio":

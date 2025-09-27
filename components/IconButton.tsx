@@ -56,22 +56,22 @@ function selectVariant(variant: string) {
       break;
     case "details-instagram":
       buttonClass = 'rounded-lg p-1 shadow-lg shadow-pink-500/50 bg-pink-500';
-      iconSize = 20;
+      iconSize = 36;
       iconColor = 'white';
       break;
     case "details-whatsapp":
       buttonClass = 'rounded-lg p-1 shadow-lg shadow-green-500/50 bg-green-500';
-      iconSize = 20;
+      iconSize = 36;
       iconColor = 'white';
       break;
     case "details-facebook":
       buttonClass = 'rounded-lg p-1 shadow-lg shadow-blue-500/50 bg-blue-500';
-      iconSize = 20;
+      iconSize = 36;
       iconColor = 'white';
       break;
     case "details-tiktok":
       buttonClass = 'rounded-lg p-1 shadow-lg shadow-neutral-500/50 bg-neutral-900';
-      iconSize = 20;
+      iconSize = 36;
       iconColor = 'white';
       break;
     default:
