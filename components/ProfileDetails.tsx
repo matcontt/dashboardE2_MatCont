@@ -1,6 +1,7 @@
 import "@/global.css"
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image, View } from 'react-native'
+import CustomText from "./CustomText"
 import IconButton from "./IconButton"
 const ProfileDetails = () => {
   return (     
@@ -9,8 +10,8 @@ const ProfileDetails = () => {
         source={require('../assets/images/fotoPerfil.jpg')} 
         className="h-40 w-40 rounded-full mb-6"
       />
-      <Text className="text-2xl font-bold mb-2">Mateo Contreras</Text>
-      <Text className="text-xl font-bold text-gray-400">Estudiante 3E2</Text> 
+      <CustomText variant="title" value="Mateo Contreras"></CustomText>
+      <CustomText variant="subtitle" value="Estudiante 3E2"></CustomText>
       <View className="flex-row mt-4 gap-3">
         <IconButton icon="logo-instagram" onPress={() => console.log("Instagram")} color="pink"></IconButton>
         <IconButton icon="logo-whatsapp" onPress={() => console.log("WhatsApp")} color="green"></IconButton>
