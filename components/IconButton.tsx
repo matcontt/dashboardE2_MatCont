@@ -13,7 +13,7 @@ const IconButton = ({ onPress, icon, enlace, color }: IconButtonProps)=> {
   return (
     <Pressable
       onPress={onPress}
-      className='rounded-xl p-3 border-b-4 border-r-2 border-stone-500 gap-3'
+      className='rounded-xl p-3 border-b-4 border-r-2 border-stone-500'
     >
       <Ionicons name={icon as any} size={24} color={color} />
     </Pressable>
