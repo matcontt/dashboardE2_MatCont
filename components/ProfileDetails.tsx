@@ -12,11 +12,11 @@ const ProfileDetails = () => {
       />
       <CustomText variant="title" value="Mateo Contreras"></CustomText>
       <CustomText variant="subtitle" value="Estudiante 3E2"></CustomText>
-      <View className="flex-row mt-4 gap-3">
-        <IconButton icon="logo-instagram" onPress={() => console.log("Instagram")} color="pink"></IconButton>
-        <IconButton icon="logo-whatsapp" onPress={() => console.log("WhatsApp")} color="green"></IconButton>
-        <IconButton icon="logo-facebook" onPress={() => console.log("Facebook")} color="blue"></IconButton>
-        <IconButton icon="logo-tiktok" onPress={() => console.log("Tiktok")} color="black"></IconButton>
+      <View className="flex-row mt-4 gap-4">
+        <IconButton icon="logo-instagram" onPress={() => console.log("Instagram")} variant="details-instagram"></IconButton>
+        <IconButton icon="logo-whatsapp" onPress={() => console.log("WhatsApp")} variant="details-whatsapp"></IconButton>
+        <IconButton icon="logo-facebook" onPress={() => console.log("Facebook")} variant="details-facebook"></IconButton>
+        <IconButton icon="logo-tiktok" onPress={() => console.log("Tiktok")} variant="details-tiktok"></IconButton>
       </View>
     </View>
  )

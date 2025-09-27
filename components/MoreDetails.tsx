@@ -7,11 +7,12 @@ const MoreDetails = () => {
   return (
     <View className="w-screen h-1/2 bg-gray-800 bottom-0 left-0 right-0 rounded-t-xl p-5">
       <CustomText variant="subtitle2" value="Skills"/>
-      <View className="flex-row mt-4 gap-3 justify-center items-center">
-        <IconButton icon="logo-instagram" onPress={() => console.log("Instagram")} color="pink"></IconButton>
-        <IconButton icon="logo-whatsapp" onPress={() => console.log("WhatsApp")} color="green"></IconButton>
-        <IconButton icon="logo-facebook" onPress={() => console.log("Facebook")} color="blue"></IconButton>
-        <IconButton icon="logo-tiktok" onPress={() => console.log("Tiktok")} color="black"></IconButton>
+      <View className="flex-row mt-4 gap-4 justify-center items-center">
+        <IconButton icon="logo-react" onPress={() => console.log("React")} variant="profile"></IconButton>
+        <IconButton icon="logo-javascript" onPress={() => console.log("JavaScript")} variant="profile"></IconButton>
+        <IconButton icon="java" onPress={() => console.log("Java")} variant="profile" iconFamily="FontAwesome5"></IconButton>
+        <IconButton icon="logo-html5" onPress={() => console.log("HTML5")} variant="profile"></IconButton>
+        <IconButton icon="adobe" onPress={() => console.log("Adobe")} variant="profile" iconFamily="Fontisto"></IconButton>
       </View>
     </View>
   )
